@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@font-face {
+    font-family: 'texto' ;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+* {
+    margin: 0%;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+header > h1 {
+    font-family: 'Passion One';
+   font-size: 10vw;
+    
+}
+
+header > h1 > span {
+    font-family: 'Passion One';
+   font-size: 7vw;
+   
+
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.3vw;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+article > p {
+    font-family: 'texto';
+    padding-left: 2vw;
+    font-size: 3.5vw;
+    margin-top: 6%;
+    line-height: 7vw;
+}
+
+div.fora {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 65vw;
+    box-shadow: inset 2px 2px 20px 7px black;
+    margin-top: 12vw;
+   
+   
+}
+
+#a  {
+    background-image: url('imagens/background001.jpg');
+
+}
+
+
+
+
+div.dentro {
+    position: absolute;
+    
+    left: 2.3%;
+    top: 10%;
+}
+
+div#b {
+    background-color: #011201;
+}
+
+div > p {
+    font-family: 'texto';
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: 3.5vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 7vw;
+    color: white;
+}
+
+div#c {
+    background-image: url('imagens/background002.jpg');
+}
+
+div#d {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+
+footer {
+    margin-top: 10vw;
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.3vw;
+}
+
+a:hover {
+    text-decoration: underline;
+}
